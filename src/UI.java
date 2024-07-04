@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
+public class UI{
+
 public static void main(String[] args) {
-    Calculadora calc = new Calculadora();
+    calc calc = new calc();
     Scanner scanner = new Scanner(System.in);
 
  
@@ -14,4 +18,5 @@ public static void main(String[] args) {
     System.out.println("Multiplicación de " + n1 + " y " + n2 + ": " + calc.multiplicacion(n1, n2));
 
     scanner.close();
+    }
 }

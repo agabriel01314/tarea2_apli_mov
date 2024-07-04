@@ -1,7 +1,5 @@
 package test;
 
-import src.calc;
-
 public class CalcTest {
 
     private calc calculadora;
